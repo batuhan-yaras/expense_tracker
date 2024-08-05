@@ -20,7 +20,8 @@ Padding eventNameTitle(BuildContext context) {
     child: Text(
       textAlign: TextAlign.center,
       FirstPageStrings().firstTitle,
-      style: Theme.of(context).textTheme.displaySmall?.copyWith(color: firstPageColors().fpTitleColor),
+      style:
+          Theme.of(context).textTheme.displaySmall?.copyWith(color: firstPageColors().fpTitleColor, letterSpacing: 1.5),
     ),
   );
 }

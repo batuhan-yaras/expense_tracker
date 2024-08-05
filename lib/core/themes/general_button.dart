@@ -13,7 +13,10 @@ class GeneralButton extends StatelessWidget {
       width: 150,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-            backgroundColor: firstPageColors().fpTextColor, elevation: 4, foregroundColor: buttonTextColor),
+            backgroundColor: firstPageColors().fpTextColor,
+            elevation: 4,
+            foregroundColor: buttonTextColor,
+            textStyle: const TextStyle(letterSpacing: 1, fontWeight: FontWeight.w500)),
         onPressed: onPressed,
         child: Text(title),
       ),
