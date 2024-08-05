@@ -1,5 +1,5 @@
 class FirstPageStrings {
-  final firstAppBar = 'Masraflarınızı Bölüşün!';
-  final firstTitle = 'Lütfen Etkinlik Adını Giriniz!';
-  final firstButtonTitle = 'Devam Et';
+  final firstAppBar = 'Share your expenses!';
+  final firstTitle = 'Please Enter The Event Name!';
+  final firstButtonTitle = 'Done';
 }
