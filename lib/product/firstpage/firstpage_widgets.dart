@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:original_1/core/all_colors.dart';
-import 'package:original_1/core/all_strings.dart';
-import 'package:original_1/core/padding_settings.dart';
+import 'package:flutter_application_1/core/all_colors.dart';
+import 'package:flutter_application_1/core/all_strings.dart';
+import 'package:flutter_application_1/core/padding_settings.dart';
 
 //İlk sayfadaki başlığın widgetı
 class FirstPageTitle extends StatelessWidget {

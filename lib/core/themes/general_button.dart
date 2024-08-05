@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:original_1/core/all_colors.dart';
+import 'package:flutter_application_1/core/all_colors.dart';
 
 class GeneralButton extends StatelessWidget {
   const GeneralButton({super.key, required this.title, required this.onPressed, this.buttonTextColor});

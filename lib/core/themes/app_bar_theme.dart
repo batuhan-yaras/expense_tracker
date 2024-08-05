@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:original_1/core/all_colors.dart';
+import 'package:flutter_application_1/core/all_colors.dart';
 
 AppBarTheme allAppBar() {
   return AppBarTheme(

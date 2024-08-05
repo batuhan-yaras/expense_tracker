@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:original_1/core/all_colors.dart';
-import 'package:original_1/core/padding_settings.dart';
+import 'package:flutter_application_1/core/all_colors.dart';
+import 'package:flutter_application_1/core/padding_settings.dart';
 
 class FirstPageTextField extends StatelessWidget {
   const FirstPageTextField({super.key, this.borderColor});
