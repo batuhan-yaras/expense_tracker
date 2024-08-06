@@ -1,3 +1,7 @@
+class appStrings {
+  final mainTitle = 'Expense Tracker';
+}
+
 class FirstPageStrings {
   final firstAppBar = 'Share your expenses';
   final firstTitle = 'Please Enter The Event Name';

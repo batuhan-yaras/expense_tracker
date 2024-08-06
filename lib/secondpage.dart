@@ -144,6 +144,7 @@ class _SecondPageWidgetState extends State<SecondPageWidget> {
                       child: Padding(
                         padding: AllPadings().verticalPadding + AllPadings().horizontalPadding,
                         child: FirstPageTextField(
+                          label: 'Name',
                           borderColor: SecondPageColors().secondTitle1Color,
                           controller: _controller,
                         ),

@@ -35,6 +35,7 @@ class _MainWidgetState extends State<FirstPageWidget> {
             child: Column(children: [
               const FirstPageTitle(),
               FirstPageTextField(
+                label: 'Event Name',
                 borderColor: firstPageColors().fpTitleColor,
                 controller: _controller,
               ),
