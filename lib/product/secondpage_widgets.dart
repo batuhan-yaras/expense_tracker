@@ -16,3 +16,25 @@ IconButton addButton(context) {
     onPressed: context,
   );
 }
+
+class CalculatedAlert {
+  static void showCalculatedScreen(BuildContext context, double total) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Calculated Screen'),
+          content: Text('Total: ${total.toStringAsFixed(2)}'),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(); // Dialogu kapatır
+              },
+              child: const Text('Close'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+}

@@ -12,4 +12,6 @@ class SecondPageStrings {
   final addbuttonTitle = 'Add';
   final expenseTitle = 'Expense Amount';
   final resetButton = 'Reset';
+
+  final calculateButtonTitle = 'Calculate';
 }

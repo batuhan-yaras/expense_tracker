@@ -73,6 +73,7 @@ class _SecondPageWidgetState extends State<SecondPageWidget> {
                         _expenses[item] = [];
                       }
                       _expenses[item]?.add(expense);
+                      total += expense;
                       expenseController.clear();
                     });
                   },
@@ -100,6 +101,7 @@ class _SecondPageWidgetState extends State<SecondPageWidget> {
       onPressed: () {
         setState(() {
           if (_expenses[item] != null) {
+            total -= (_expenses[item]?.fold(0.0, (sum, expense) => sum! + expense) ?? 0.0);
             _expenses[item] = [];
           }
           Navigator.of(context).pop();
@@ -108,10 +110,13 @@ class _SecondPageWidgetState extends State<SecondPageWidget> {
     );
   }
 
+  double total = 0.0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text(FirstPageStrings().firstAppBar),
+      ),
       body: Stack(
         children: [
           Container(
@@ -191,8 +196,10 @@ class _SecondPageWidgetState extends State<SecondPageWidget> {
                 Container(
                   alignment: Alignment.bottomRight,
                   child: GeneralButton(
-                    title: 'Calculate',
-                    onPressed: () {},
+                    title: SecondPageStrings().calculateButtonTitle,
+                    onPressed: () {
+                      CalculatedAlert.showCalculatedScreen(context, total);
+                    },
                   ),
                 )
               ],
