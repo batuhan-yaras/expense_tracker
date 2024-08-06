@@ -5,7 +5,7 @@ import 'package:flutter_application_1/core/all_strings.dart';
 import 'package:flutter_application_1/core/padding_settings.dart';
 import 'package:flutter_application_1/core/themes/general_button.dart';
 import 'package:flutter_application_1/core/themes/textField_theme.dart';
-import 'package:flutter_application_1/product/firstpage/firstpage_widgets.dart';
+import 'package:flutter_application_1/product/firstpage_widgets.dart';
 import 'package:flutter_application_1/secondpage.dart';
 
 class FirstPageWidget extends StatefulWidget {

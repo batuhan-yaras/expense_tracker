@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/core/all_colors.dart';
-import 'package:flutter_application_1/core/all_strings.dart';
-import 'package:flutter_application_1/core/padding_settings.dart';
 
 Text addPersonTitle(BuildContext context, String index) {
   return Text(

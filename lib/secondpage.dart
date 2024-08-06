@@ -8,7 +8,7 @@ import 'package:flutter_application_1/core/padding_settings.dart';
 import 'package:flutter_application_1/core/themes/general_button.dart';
 import 'package:flutter_application_1/core/themes/textField_theme.dart';
 import 'package:flutter_application_1/firstpage.dart';
-import 'package:flutter_application_1/product/firstpage/secondpage_widgets.dart';
+import 'package:flutter_application_1/product/secondpage_widgets.dart';
 
 class SecondPageWidget extends StatefulWidget {
   const SecondPageWidget({super.key});
