@@ -52,7 +52,7 @@ class _SecondPageWidgetState extends State<SecondPageWidget> {
             Row(
               children: [
                 Text(
-                  'Expenses: ${calculateTotalExpenses(item).toStringAsFixed(2)}',
+                  'Expenses: ${calculateTotalExpenses(item).toStringAsFixed(2)} TL',
                   textAlign: TextAlign.start,
                 ),
               ],
@@ -198,7 +198,7 @@ class _SecondPageWidgetState extends State<SecondPageWidget> {
                   child: GeneralButton(
                     title: SecondPageStrings().calculateButtonTitle,
                     onPressed: () {
-                      CalculatedAlert.showCalculatedScreen(context, total);
+                      CalculatedAlert.showCalculatedScreen(context, total, _persons, _expenses);
                     },
                   ),
                 )

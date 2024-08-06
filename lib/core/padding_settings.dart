@@ -14,4 +14,5 @@ class AllPadings {
   final leftPadding = const EdgeInsets.only(left: 20);
 
   final largeRightPadding = const EdgeInsets.only(right: 40);
+  final smallVerticalPadding = const EdgeInsets.symmetric(vertical: 4);
 }

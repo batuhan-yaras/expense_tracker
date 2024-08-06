@@ -10,8 +10,9 @@ class SecondPageStrings {
 
   final cancelTitle = 'Cancel';
   final addbuttonTitle = 'Add';
-  final expenseTitle = 'Expense Amount';
+  final expenseTitle = 'Expense Amount (TL)';
   final resetButton = 'Reset';
 
   final calculateButtonTitle = 'Calculate';
+  final calculatedTitle = 'Calculated Screen';
 }

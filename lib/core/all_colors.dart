@@ -10,4 +10,7 @@ class firstPageColors {
 
 class SecondPageColors {
   final Color secondTitle1Color = const Color.fromARGB(255, 255, 189, 252);
+  final Color calculatedTitleColor = Colors.deepPurple;
+  final Color totalExpensesColor = Colors.black54;
+  final Color subtitleColor = Colors.black87;
 }
