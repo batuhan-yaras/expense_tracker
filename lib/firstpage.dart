@@ -6,6 +6,7 @@ import 'package:flutter_application_1/core/padding_settings.dart';
 import 'package:flutter_application_1/core/themes/general_button.dart';
 import 'package:flutter_application_1/core/themes/textField_theme.dart';
 import 'package:flutter_application_1/product/firstpage/firstpage_widgets.dart';
+import 'package:flutter_application_1/secondpage.dart';
 
 class FirstPageWidget extends StatefulWidget {
   const FirstPageWidget({super.key});
@@ -13,6 +14,10 @@ class FirstPageWidget extends StatefulWidget {
   @override
   State<FirstPageWidget> createState() => _MainWidgetState();
 }
+
+String eventName = '';
+final TextEditingController _controller = TextEditingController();
+String get secondTitle2 => 'Persons - $eventName';
 
 class _MainWidgetState extends State<FirstPageWidget> {
   @override
@@ -31,12 +36,16 @@ class _MainWidgetState extends State<FirstPageWidget> {
               const FirstPageTitle(),
               FirstPageTextField(
                 borderColor: firstPageColors().fpTitleColor,
+                controller: _controller,
               ),
               GeneralButton(
                 title: FirstPageStrings().firstButtonTitle,
                 buttonTextColor: firstPageColors().fpButtonTextColor,
                 onPressed: () {
-                  // Navigator.push(context, MaterialPageRoute(builder: (context) => const FirstPageTextField()));
+                  setState(() {
+                    eventName = _controller.text;
+                  });
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const SecondPageWidget()));
                 },
               ),
             ]),

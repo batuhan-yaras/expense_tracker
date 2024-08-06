@@ -7,3 +7,7 @@ class firstPageColors {
   final Color fpTextColor = Colors.white;
   final Color fpButtonTextColor = Colors.purple;
 }
+
+class SecondPageColors {
+  final Color secondTitle1Color = const Color.fromARGB(255, 255, 189, 252);
+}
