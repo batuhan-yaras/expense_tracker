@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/core/all_colors.dart';
 import 'package:flutter_application_1/core/all_pics.dart';
 import 'package:flutter_application_1/core/all_strings.dart';
+import 'package:flutter_application_1/core/info_button.dart';
 import 'package:flutter_application_1/core/padding_settings.dart';
 import 'package:flutter_application_1/core/themes/general_button.dart';
 import 'package:flutter_application_1/core/themes/textField_theme.dart';
@@ -25,6 +26,7 @@ class _MainWidgetState extends State<FirstPageWidget> {
     return Scaffold(
         backgroundColor: firstPageColors().fpBGColor,
         appBar: AppBar(
+          actions: const [InfoButton()],
           title: Text(FirstPageStrings().firstAppBar),
         ),
         body: Container(

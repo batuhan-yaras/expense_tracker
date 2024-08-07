@@ -20,3 +20,11 @@ class SecondPageStrings {
   final calculateButtonTitle = 'Calculate';
   final calculatedTitle = 'Calculated Screen';
 }
+
+class InfoButtonStrings {
+  final infoTitle = 'Share your expenses';
+  final infoSubtitle = 'Information';
+  final informationString =
+      'With this app, you can easily track everyone’s spending during your event.\nAt the end of the day, you’ll see who owes whom and how much.\n\nSimplify your group expenses and focus on having a great time!';
+  final infoOK = 'OK';
+}
