@@ -3,7 +3,7 @@
 A Flutter project which makes you track your expenses with your friends on events.
 
 ### Preview For First Page:
-<img src="/assets/GithubImages/Holiday.jpg" width = 200px>
+<img src="/assets/GithubImages/Holiday.jpg" width = 200px>.....<img src="/assets/GithubImages/Information.jpg" width = 200px><br><br>
 Enter an Event Name: Type the name of your event and press the 'Done' button to proceed to the next page.
 
 ### Preview For Second Page:
